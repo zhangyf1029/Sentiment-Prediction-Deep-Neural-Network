@@ -1,4 +1,2 @@
-# cs523final_project
-For the code, since we directly use the IMDB dataset from keras, there is no extra import needed, all datasets are includeded in ipynb format coding file.
-
-For the report folder, there is a PDF file and also the original TEX file, which will give the same PDF, and all required images are also in the folder.
+# Sentiment Prediction through Deep Neural Network
+Nowadays, people rarely have time to finish all movies, even the latest one, therefore movie reviews become a choosing standard. Having a high accuracy on sentiment prediction of movie reviews, people can save their time even more by not reading each single review and still can know others’ attitude on those movies. We trained a Multi-layer neural network with IMDB data imported from Keras. Even the dataset has been already processed, we still need to do word embedding and split validation dataset from training dataset. For increasing the accuracy of our model without overfitting, we changes parameters such as learning rate, epoch, and also adding more hidden layers with proper dropout rates between them. Finally, two-hidden-layer neural network with adjusted parameters not only gets a higher model accuracy around 95% but also achieve a higher validation accuracy around 88% before overfitting.
